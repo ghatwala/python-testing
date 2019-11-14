@@ -1,0 +1,13 @@
+arch:
+- arm64
+- s390x
+- ppc64le
+- amd64
+
+language: python
+
+install: skip
+script:
+ - echo ${TRAVIS_CPU_ARCH}
+ - python --version
+ - pip -V
