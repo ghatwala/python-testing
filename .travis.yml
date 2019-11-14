@@ -5,7 +5,7 @@ arch:
 - amd64
 
 language: python
-
+python: 3.6
 install: skip
 script:
  - echo ${TRAVIS_CPU_ARCH}
